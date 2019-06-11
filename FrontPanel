@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 5px;
+  height: 50px; /* Should be removed. Only for demonstration */
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #ffffff;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+
+<h2>Another Quiz Question</h2>
+<div class="center">
+<h2>North</h2>
+1&spades; <br>
+</div>
+
+
+<div class="row">
+  <div class="column" style="background-color:#ffffff;">
+    <h2>West</h2>
+    <p>1&hearts;</p>
+  </div>
+  <div class="column" style="background-color:#ffffff;">
+    <h2>East</h2>
+    <p>2&spades; </p>
+  </div>
+</div>
+<br>
+<br>
+
+<div class="center">
+<h2>South</h2>
+? <br> <br>
+&spades;AKT8 <br>
+&hearts;8  <br>
+&clubs;AKQ <br>
+&diams;76542 <br>
+</div>
+
+</body>
+</html>
